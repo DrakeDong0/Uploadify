@@ -1,4 +1,4 @@
-### Uploadify
+# Uploadify
 
 This is a spotify playlist import/export tool that can be used between spotify accounts.
 
