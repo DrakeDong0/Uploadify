@@ -8,7 +8,7 @@ import Footer from "../../Components/Footer/Footer"
 const handleLogin = () => {
     const client_id = "11a53d57252045948aba4b16e6872e80"; 
     const redirect_uri = encodeURIComponent("http://localhost:5173/page1"); 
-    const scopes = encodeURIComponent("user-read-private user-read-email playlist-modify-private playlist-modify-public playlist-read-private user-read-playback-state user-top-read");
+    const scopes = encodeURIComponent("user-read-private user-read-email playlist-modify-private playlist-modify-public playlist-read-private user-top-read");
     const spotifyAuthUrl = `https://accounts.spotify.com/authorize?client_id=${client_id}&response_type=code&redirect_uri=${redirect_uri}&scope=${scopes}&show_dialog=true`;
 
     window.location.href = spotifyAuthUrl;
