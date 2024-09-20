@@ -2,11 +2,15 @@
 
 This is a spotify playlist import/export tool that can be used between spotify accounts.
 
-Selected playlists are stored as a json file which can be sent, saved or uploaded to cloud storage sites. Playlist sizes range from a few kb to several mb. To reduce file size, upload playlists without a playlist image.  
+Selected playlists are stored as a json file which can be sent, saved or uploaded to storage locations. Playlist sizes range from a few kb to several mb. To reduce file size, upload playlists without a playlist image.  
 
-## Installation
+## Requirements
 
-Uploadify is currently in development mode and is pending approval from spotify to be publicly available.
+Uploadify unfortunately is not approved by spotify so it is not available publically. 
+
+## Features
+- **OAuth 2.0**: Uses Spotify's OAuth to authenticate users, which then generates a local token to be used for security.
+- **Sidebar**: Search, add, delete, playlists within Uploadify to keep what you need.
 
 ## Credits
 
